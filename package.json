@@ -1,0 +1,35 @@
+{
+  "name": "Math-Visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "dev": "webpack serve --mode development --port 3000",
+    "dev:watch": "webpack-dev-server --mode development --port 3000 --watch",
+    "errors": "webpack --mode development --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shauryamanocha/mathvis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shauryamanocha/mathvis/issues"
+  },
+  "homepage": "https://github.com/shauryamanocha/mathvis#readme",
+  "dependencies": {
+    "file-loader": "1.1.10",
+    "loader-utils": "1.1.0",
+    "webpack": "4.44.1",
+    "webpack-cli": "2.0.9",
+    "webpack-dev-server": "3.11.0"
+  },
+  "devDependencies": {
+    "elm-webpack-loader": "^7.0.1"
+  }
+}
